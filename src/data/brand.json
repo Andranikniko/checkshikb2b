@@ -1,0 +1,2642 @@
+[
+  {
+    "brand_name": "Louis Vuitton",
+    "brand_back_name": "LOUIS VUITTON",
+    "id": 145,
+    "min_30": 5500,
+    "h_2": 4200,
+    "h_12": 3600,
+    "h_24": 3200,
+    "order": 1
+  },
+  {
+    "brand_name": "Gucci",
+    "brand_back_name": "GUCCI",
+    "id": 110,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 2
+  },
+  {
+    "brand_name": "Chanel",
+    "brand_back_name": "CHANEL",
+    "id": 38,
+    "min_30": 55,
+    "h_2": 45,
+    "h_12": 35,
+    "h_24": 25,
+    "order": 3
+  },
+  {
+    "brand_name": "Hermes",
+    "brand_back_name": "HERMÈS",
+    "id": 104,
+    "min_30": 55,
+    "h_2": 45,
+    "h_12": 35,
+    "h_24": 25,
+    "order": 4
+  },
+  {
+    "brand_name": "Dior",
+    "brand_back_name": "DIOR",
+    "id": 79,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 5
+  },
+  {
+    "brand_name": "Prada",
+    "brand_back_name": "PRADA",
+    "id": 185,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 6
+  },
+  {
+    "brand_name": "Nike",
+    "brand_back_name": "NIKE",
+    "id": 167,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 7
+  },
+  {
+    "brand_name": "Saint Laurent YSL",
+    "brand_back_name": "SAINT LAURENT",
+    "id": 105,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 8
+  },
+  {
+    "brand_name": "Burberry",
+    "brand_back_name": "BURBERRY",
+    "id": 31,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 9
+  },
+  {
+    "brand_name": "Balenciaga",
+    "brand_back_name": "BALENCIAGA",
+    "id": 16,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 10
+  },
+  {
+    "brand_name": "Fendi",
+    "brand_back_name": "FENDI",
+    "id": 95,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 11
+  },
+  {
+    "brand_name": "Adidas",
+    "brand_back_name": "ADIDAS",
+    "id": 2,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 12
+  },
+  {
+    "brand_name": "Michael Kors",
+    "brand_back_name": "MICHAEL KORS",
+    "id": 155,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 13
+  },
+  {
+    "brand_name": "Celine",
+    "brand_back_name": "CELINE",
+    "id": 36,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 14
+  },
+  {
+    "brand_name": "Dolce & Gabbana",
+    "brand_back_name": "DOLCE & GABBANA",
+    "id": 80,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 15
+  },
+  {
+    "brand_name": "Air Jordan",
+    "brand_back_name": "AIR JORDAN",
+    "id": 47,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 16
+  },
+  {
+    "brand_name": "Loewe",
+    "brand_back_name": "LOEWE",
+    "id": 247,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 17
+  },
+  {
+    "brand_name": "New Balance",
+    "brand_back_name": "NEW BALANCE",
+    "id": 166,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 18
+  },
+  {
+    "brand_name": "Cartier",
+    "brand_back_name": "CARTIER",
+    "id": 229,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 19
+  },
+  {
+    "brand_name": "Bottega Veneta",
+    "brand_back_name": "BOTTEGA VENETA",
+    "id": 25,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 20
+  },
+  {
+    "brand_name": "Valentino",
+    "brand_back_name": "VALENTINO",
+    "id": 224,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 21
+  },
+  {
+    "brand_name": "Goyard",
+    "brand_back_name": "GOYARD",
+    "id": 108,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 22
+  },
+  {
+    "brand_name": "Yeezy",
+    "brand_back_name": "YEEZY",
+    "id": 281,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 23
+  },
+  {
+    "brand_name": "Coach",
+    "brand_back_name": "COACH",
+    "id": 232,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 24
+  },
+  {
+    "brand_name": "Van Cleef Arpels",
+    "brand_back_name": "VAN CLEEF & ARPELS",
+    "id": 106,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 25
+  },
+  {
+    "brand_name": "Versace",
+    "brand_back_name": "VERSACE",
+    "id": 271,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 26
+  },
+  {
+    "brand_name": "Jacquemus",
+    "brand_back_name": "JACQUEMUS",
+    "id": 123,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 27
+  },
+  {
+    "brand_name": "Givenchy",
+    "brand_back_name": "GIVENCHY",
+    "id": 101,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 28
+  },
+  {
+    "brand_name": "The North Face",
+    "brand_back_name": "THE NORTH FACE",
+    "id": 266,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 29
+  },
+  {
+    "brand_name": "Levis",
+    "brand_back_name": "LEVIS",
+    "id": 139,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 30
+  },
+  {
+    "brand_name": "Max Mara",
+    "brand_back_name": "MAX MARA",
+    "id": 254,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 31
+  },
+  {
+    "brand_name": "Off-White",
+    "brand_back_name": "OFF-WHITE",
+    "id": 172,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 32
+  },
+  {
+    "brand_name": "Christian Louboutin",
+    "brand_back_name": "CHRISTIAN LOUBOUTIN",
+    "id": 41,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 33
+  },
+  {
+    "brand_name": "Marc Jacobs",
+    "brand_back_name": "MARC JACOBS",
+    "id": 251,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 34
+  },
+  {
+    "brand_name": "Loro Piana",
+    "brand_back_name": "LORO PIANA",
+    "id": 143,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 35
+  },
+  {
+    "brand_name": "UGG",
+    "brand_back_name": "UGG",
+    "id": 218,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 36
+  },
+  {
+    "brand_name": "Canada Goose",
+    "brand_back_name": "CANADA GOOSE",
+    "id": 228,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 38
+  },
+  {
+    "brand_name": "Supreme",
+    "brand_back_name": "SUPREME",
+    "id": 207,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 39
+  },
+  {
+    "brand_name": "Chrome Hearts",
+    "brand_back_name": "CHROME HEARTS",
+    "id": 66,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 40
+  },
+  {
+    "brand_name": "MCM",
+    "brand_back_name": "MCM",
+    "id": 255,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 41
+  },
+  {
+    "brand_name": "Dr.Martens",
+    "brand_back_name": "DR. MARTENS",
+    "id": 85,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 42
+  },
+  {
+    "brand_name": "Bape",
+    "brand_back_name": "BAPE",
+    "id": 57,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 43
+  },
+  {
+    "brand_name": "Miu Miu",
+    "brand_back_name": "MIU MIU",
+    "id": 157,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 44
+  },
+  {
+    "brand_name": "Golden Goose",
+    "brand_back_name": "GOLDEN GOOSE",
+    "id": 102,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 45
+  },
+  {
+    "brand_name": "Salvatore Ferragamo",
+    "brand_back_name": "SALVATORE FERRAGAMO",
+    "id": 198,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 46
+  },
+  {
+    "brand_name": "Timberland",
+    "brand_back_name": "TIMBERLAND",
+    "id": 212,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 48
+  },
+  {
+    "brand_name": "Tiffany & Co",
+    "brand_back_name": "TIFFANY & CO.",
+    "id": 107,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 49
+  },
+  {
+    "brand_name": "Diesel",
+    "brand_back_name": "DIESEL",
+    "id": 78,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 50
+  },
+  {
+    "brand_name": "Hugo Boss",
+    "brand_back_name": "HUGO BOSS",
+    "id": 116,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 51
+  },
+  {
+    "brand_name": "Chloe",
+    "brand_back_name": "CHLOÉ",
+    "id": 553,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 52
+  },
+  {
+    "brand_name": "Maison Margiela",
+    "brand_back_name": "MAISON MARGIELA",
+    "id": 149,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 53
+  },
+  {
+    "brand_name": "Karl Lagerfeld",
+    "brand_back_name": "KARL LAGERFELD",
+    "id": 132,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 54
+  },
+  {
+    "brand_name": "Pinko",
+    "brand_back_name": "PINKO",
+    "id": 262,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 55
+  },
+  {
+    "brand_name": "Jimmy Choo",
+    "brand_back_name": "JIMMY CHOO",
+    "id": 126,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 56
+  },
+  {
+    "brand_name": "Tory Burch",
+    "brand_back_name": "TORY BURCH",
+    "id": 215,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 57
+  },
+  {
+    "brand_name": "Bvlgari",
+    "brand_back_name": "BVLGARI",
+    "id": 227,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 58
+  },
+  {
+    "brand_name": "Balmain",
+    "brand_back_name": "BALMAIN",
+    "id": 17,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 59
+  },
+  {
+    "brand_name": "Tod’S",
+    "brand_back_name": "TOD'S",
+    "id": 213,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 60
+  },
+  {
+    "brand_name": "Vetements",
+    "brand_back_name": "VETEMENTS",
+    "id": 273,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 61
+  },
+  {
+    "brand_name": "Giorgio Armani",
+    "brand_back_name": "GIORGIO ARMANI",
+    "id": 99,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 62
+  },
+  {
+    "brand_name": "Lacoste",
+    "brand_back_name": "LACOSTE",
+    "id": 246,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 63
+  },
+  {
+    "brand_name": "Alexander McQueen",
+    "brand_back_name": "ALEXANDER MCQUEEN",
+    "id": 7,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 64
+  },
+  {
+    "brand_name": "Asics",
+    "brand_back_name": "ASICS",
+    "id": 54,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 65
+  },
+  {
+    "brand_name": "Mulberry",
+    "brand_back_name": "MULBERRY",
+    "id": 161,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 66
+  },
+  {
+    "brand_name": "Brunello Cucinelli",
+    "brand_back_name": "BRUNELLO CUCINELLI",
+    "id": 61,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 67
+  },
+  {
+    "brand_name": "Philipp Plein",
+    "brand_back_name": "PHILIPP PLEIN",
+    "id": 180,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 68
+  },
+  {
+    "brand_name": "Emporio Armani",
+    "brand_back_name": "EMPORIO ARMANI",
+    "id": 90,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 69
+  },
+  {
+    "brand_name": "Rolex",
+    "brand_back_name": "ROLEX",
+    "id": 196,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 70
+  },
+  {
+    "brand_name": "Rick Owens",
+    "brand_back_name": "RICK OWENS",
+    "id": 191,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 71
+  },
+  {
+    "brand_name": "Carhartt",
+    "brand_back_name": "CARHARTT",
+    "id": 32,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 72
+  },
+  {
+    "brand_name": "Armani Exchange",
+    "brand_back_name": "ARMANI EXCHANGE",
+    "id": 13,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 74
+  },
+  {
+    "brand_name": "Puma",
+    "brand_back_name": "PUMA",
+    "id": 186,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 75
+  },
+  {
+    "brand_name": "Converse",
+    "brand_back_name": "CONVERSE",
+    "id": 70,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 76
+  },
+  {
+    "brand_name": "Acne Studios",
+    "brand_back_name": "ACNE STUDIOS",
+    "id": 45,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 77
+  },
+  {
+    "brand_name": "Moschino",
+    "brand_back_name": "MOSCHINO",
+    "id": 257,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 78
+  },
+  {
+    "brand_name": "Stella Mccartney",
+    "brand_back_name": "STELLA MCCARTNEY",
+    "id": 204,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 79
+  },
+  {
+    "brand_name": "Amiri",
+    "brand_back_name": "AMIRI",
+    "id": 9,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 80
+  },
+  {
+    "brand_name": "Raf Simons",
+    "brand_back_name": "RAF SIMONS",
+    "id": 187,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 82
+  },
+  {
+    "brand_name": "Sandro",
+    "brand_back_name": "SANDRO",
+    "id": 264,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 83
+  },
+  {
+    "brand_name": "Bogner",
+    "brand_back_name": "BOGNER",
+    "id": 24,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 84
+  },
+  {
+    "brand_name": "Boss",
+    "brand_back_name": "BOSS",
+    "id": 58,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 86
+  },
+  {
+    "brand_name": "Roberto Cavalli",
+    "brand_back_name": "ROBERTO CAVALLI",
+    "id": 195,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 87
+  },
+  {
+    "brand_name": "Trussardi",
+    "brand_back_name": "TRUSSARDI",
+    "id": 216,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 88
+  },
+  {
+    "brand_name": "Tom Ford",
+    "brand_back_name": "TOM FORD",
+    "id": 214,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 89
+  },
+  {
+    "brand_name": "Dsquared2",
+    "brand_back_name": "DSQUARED2",
+    "id": 86,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 90
+  },
+  {
+    "brand_name": "Lanvin",
+    "brand_back_name": "LANVIN",
+    "id": 136,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 91
+  },
+  {
+    "brand_name": "Comme Des Garcons",
+    "brand_back_name": "COMME DES GARÇONS",
+    "id": 552,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 92
+  },
+  {
+    "brand_name": "Zegna",
+    "brand_back_name": "ZEGNA",
+    "id": 283,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 93
+  },
+  {
+    "brand_name": "Kenzo",
+    "brand_back_name": "KENZO",
+    "id": 244,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 94
+  },
+  {
+    "brand_name": "Ermanno Scervino",
+    "brand_back_name": "ERMANNO SCERVINO",
+    "id": 91,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 95
+  },
+  {
+    "brand_name": "Vans",
+    "brand_back_name": "VANS",
+    "id": 270,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 96
+  },
+  {
+    "brand_name": "Liu Jo",
+    "brand_back_name": "LIU JO",
+    "id": 140,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 98
+  },
+  {
+    "brand_name": "Vivienne Westwood",
+    "brand_back_name": "VIVIENNE WESTWOOD",
+    "id": 275,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 99
+  },
+  {
+    "brand_name": "Fear Of God",
+    "brand_back_name": "FEAR OF GOD",
+    "id": 94,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 100
+  },
+  {
+    "brand_name": "Cactus Jack/travis Scott",
+    "brand_back_name": "CACTUS JACK/TRAVIS SCOTT",
+    "id": 62,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 101
+  },
+  {
+    "brand_name": "Palm Angels",
+    "brand_back_name": "PALM ANGELS",
+    "id": 260,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 102
+  },
+  {
+    "brand_name": "Patrizia Pepe",
+    "brand_back_name": "PATRIZIA PEPE",
+    "id": 178,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 103
+  },
+  {
+    "brand_name": "Manolo Blahnik",
+    "brand_back_name": "MANOLO BLAHNIK",
+    "id": 151,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 104
+  },
+  {
+    "brand_name": "Escada",
+    "brand_back_name": "ESCADA",
+    "id": 92,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 105
+  },
+  {
+    "brand_name": "Billionaire",
+    "brand_back_name": "BILLIONAIRE",
+    "id": 21,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 106
+  },
+  {
+    "brand_name": "Etro",
+    "brand_back_name": "ETRO",
+    "id": 93,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 107
+  },
+  {
+    "brand_name": "Furla",
+    "brand_back_name": "FURLA",
+    "id": 239,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 108
+  },
+  {
+    "brand_name": "Kiton",
+    "brand_back_name": "KITON",
+    "id": 135,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 110
+  },
+  {
+    "brand_name": "Alexander Wang",
+    "brand_back_name": "ALEXANDER WANG",
+    "id": 48,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 111
+  },
+  {
+    "brand_name": "Essentials",
+    "brand_back_name": "ESSENTIALS",
+    "id": 236,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 112
+  },
+  {
+    "brand_name": "Marella",
+    "brand_back_name": "MARELLA",
+    "id": 152,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 113
+  },
+  {
+    "brand_name": "Msgm",
+    "brand_back_name": "MSGM",
+    "id": 160,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 114
+  },
+  {
+    "brand_name": "Cavempt",
+    "brand_back_name": "CAVEMPT",
+    "id": 35,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 115
+  },
+  {
+    "brand_name": "Corneliani",
+    "brand_back_name": "CORNELIANI",
+    "id": 72,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 116
+  },
+  {
+    "brand_name": "Max&co",
+    "brand_back_name": "MAX&CO",
+    "id": 154,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 117
+  },
+  {
+    "brand_name": "Marni",
+    "brand_back_name": "MARNI",
+    "id": 252,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 118
+  },
+  {
+    "brand_name": "Reebok",
+    "brand_back_name": "REEBOK",
+    "id": 290,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 119
+  },
+  {
+    "brand_name": "Bally",
+    "brand_back_name": "BALLY",
+    "id": 226,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 120
+  },
+  {
+    "brand_name": "Kate Spade",
+    "brand_back_name": "KATE SPADE",
+    "id": 133,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 121
+  },
+  {
+    "brand_name": "Delvaux",
+    "brand_back_name": "DELVAUX",
+    "id": 74,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 122
+  },
+  {
+    "brand_name": "Brioni",
+    "brand_back_name": "BRIONI",
+    "id": 28,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 124
+  },
+  {
+    "brand_name": "Vilebrequin",
+    "brand_back_name": "VILEBREQUIN",
+    "id": 291,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 125
+  },
+  {
+    "brand_name": "Montblanc",
+    "brand_back_name": "MONTBLANC",
+    "id": 158,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 127
+  },
+  {
+    "brand_name": "Longchamp",
+    "brand_back_name": "LONGCHAMP",
+    "id": 141,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 128
+  },
+  {
+    "brand_name": "Stussy",
+    "brand_back_name": "STUSSY",
+    "id": 206,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 129
+  },
+  {
+    "brand_name": "Maje",
+    "brand_back_name": "MAJE",
+    "id": 249,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 130
+  },
+  {
+    "brand_name": "Jacob Cohen",
+    "brand_back_name": "JACOB COHEN",
+    "id": 122,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 131
+  },
+  {
+    "brand_name": "Jil Sander",
+    "brand_back_name": "JIL SANDER",
+    "id": 125,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 132
+  },
+  {
+    "brand_name": "Just Cavalli",
+    "brand_back_name": "JUST CAVALLI",
+    "id": 130,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 134
+  },
+  {
+    "brand_name": "Love Moschino",
+    "brand_back_name": "LOVE MOSCHINO",
+    "id": 146,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 135
+  },
+  {
+    "brand_name": "Fear of God Essentials",
+    "brand_back_name": "ESSENTIALS FEAR OF GOD",
+    "id": 554,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 136
+  },
+  {
+    "brand_name": "Sergio Rossi",
+    "brand_back_name": "SERGIO ROSSI",
+    "id": 200,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 137
+  },
+  {
+    "brand_name": "Thom Browne",
+    "brand_back_name": "THOM BROWNE",
+    "id": 267,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 138
+  },
+  {
+    "brand_name": "Tag Heuer",
+    "brand_back_name": "TAG HEUER",
+    "id": 208,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 139
+  },
+  {
+    "brand_name": "Stuart Weitzman",
+    "brand_back_name": "STUART WEITZMAN",
+    "id": 205,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 140
+  },
+  {
+    "brand_name": "Diane Von Furstenberg",
+    "brand_back_name": "DIANE VON FURSTENBERG",
+    "id": 77,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 141
+  },
+  {
+    "brand_name": "Elisabetta Franchi",
+    "brand_back_name": "ELISABETTA FRANCHI",
+    "id": 88,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 142
+  },
+  {
+    "brand_name": "Isabel Marant",
+    "brand_back_name": "ISABEL MARANT",
+    "id": 119,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 143
+  },
+  {
+    "brand_name": "Heron Preston",
+    "brand_back_name": "HERON PRESTON",
+    "id": 112,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 144
+  },
+  {
+    "brand_name": "Emilio Pucci",
+    "brand_back_name": "EMILIO PUCCI",
+    "id": 89,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 145
+  },
+  {
+    "brand_name": "Evisu",
+    "brand_back_name": "EVISU",
+    "id": 237,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 146
+  },
+  {
+    "brand_name": "Vlone",
+    "brand_back_name": "VLONE",
+    "id": 276,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 148
+  },
+  {
+    "brand_name": "Yohji Yamamoto",
+    "brand_back_name": "YOHJI YAMAMOTO",
+    "id": 282,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 149
+  },
+  {
+    "brand_name": "Noah",
+    "brand_back_name": "NOAH",
+    "id": 170,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 150
+  },
+  {
+    "brand_name": "Luisa Spagnoli",
+    "brand_back_name": "LUISA SPAGNOLI",
+    "id": 147,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 151
+  },
+  {
+    "brand_name": "Baldinini",
+    "brand_back_name": "BALDININI",
+    "id": 15,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 152
+  },
+  {
+    "brand_name": "Versus",
+    "brand_back_name": "VERSUS",
+    "id": 272,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 153
+  },
+  {
+    "brand_name": "Patagonia",
+    "brand_back_name": "PATAGONIA",
+    "id": 261,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 154
+  },
+  {
+    "brand_name": "Alberta Ferretti",
+    "brand_back_name": "ALBERTA FERRETTI",
+    "id": 5,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 155
+  },
+  {
+    "brand_name": "Issey Miyake",
+    "brand_back_name": "ISSEY MIYAKE",
+    "id": 242,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 156
+  },
+  {
+    "brand_name": "Amina Muaddi",
+    "brand_back_name": "AMINA MUADDI",
+    "id": 51,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 157
+  },
+  {
+    "brand_name": "Omega",
+    "brand_back_name": "OMEGA",
+    "id": 173,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 158
+  },
+  {
+    "brand_name": "Breitling",
+    "brand_back_name": "BREITLING",
+    "id": 27,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 159
+  },
+  {
+    "brand_name": "Jean Paul Gaultier",
+    "brand_back_name": "JEAN PAUL GAULTIER",
+    "id": 243,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 160
+  },
+  {
+    "brand_name": "Carolina Herrera",
+    "brand_back_name": "CAROLINA HERRERA",
+    "id": 33,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 161
+  },
+  {
+    "brand_name": "Undercover",
+    "brand_back_name": "UNDERCOVER",
+    "id": 268,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 162
+  },
+  {
+    "brand_name": "7 For All Mankind",
+    "brand_back_name": "7 FOR ALL MANKIND",
+    "id": 43,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 163
+  },
+  {
+    "brand_name": "John Richmond",
+    "brand_back_name": "JOHN RICHMOND",
+    "id": 128,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 164
+  },
+  {
+    "brand_name": "Oscar De La Renta",
+    "brand_back_name": "OSCAR DE LA RENTA",
+    "id": 174,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 165
+  },
+  {
+    "brand_name": "Moynat",
+    "brand_back_name": "MOYNAT",
+    "id": 159,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 166
+  },
+  {
+    "brand_name": "Ami Alexandre Mattiussi",
+    "brand_back_name": "AMI ALEXANDRE MATTIUSSI",
+    "id": 286,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 167
+  },
+  {
+    "brand_name": "Giuseppe Zanotti",
+    "brand_back_name": "GIUSEPPE ZANOTTI",
+    "id": 100,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 168
+  },
+  {
+    "brand_name": "ACW",
+    "brand_back_name": "ACW",
+    "id": 46,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 169
+  },
+  {
+    "brand_name": "Chopard",
+    "brand_back_name": "CHOPARD",
+    "id": 40,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 171
+  },
+  {
+    "brand_name": "Bugatti",
+    "brand_back_name": "BUGATTI",
+    "id": 30,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 172
+  },
+  {
+    "brand_name": "Kith",
+    "brand_back_name": "KITH",
+    "id": 245,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 173
+  },
+  {
+    "brand_name": "Alessandro Dell'acqua",
+    "brand_back_name": "ALESSANDRO DELL'ACQUA",
+    "id": 6,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 174
+  },
+  {
+    "brand_name": "Dries Van Noten",
+    "brand_back_name": "DRIES VAN NOTEN",
+    "id": 83,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 175
+  },
+  {
+    "brand_name": "John Galliano",
+    "brand_back_name": "JOHN GALLIANO",
+    "id": 127,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 176
+  },
+  {
+    "brand_name": "Alaia",
+    "brand_back_name": "ALAIA",
+    "id": 3,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 177
+  },
+  {
+    "brand_name": "Blumarine",
+    "brand_back_name": "BLUMARINE",
+    "id": 23,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 178
+  },
+  {
+    "brand_name": "Hogan",
+    "brand_back_name": "HOGAN",
+    "id": 113,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 179
+  },
+  {
+    "brand_name": "Khaite",
+    "brand_back_name": "KHAITE",
+    "id": 134,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 180
+  },
+  {
+    "brand_name": "Salomon",
+    "brand_back_name": "SALOMON",
+    "id": 197,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 181
+  },
+  {
+    "brand_name": "Mach & Mach",
+    "brand_back_name": "MACH & MACH",
+    "id": 289,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 182
+  },
+  {
+    "brand_name": "Audemars Piguet",
+    "brand_back_name": "AUDEMARS PIGUET",
+    "id": 56,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 183
+  },
+  {
+    "brand_name": "Berluti",
+    "brand_back_name": "BERLUTI",
+    "id": 20,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 185
+  },
+  {
+    "brand_name": "Champion",
+    "brand_back_name": "CHAMPION",
+    "id": 230,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 187
+  },
+  {
+    "brand_name": "Roger Vivier",
+    "brand_back_name": "ROGER VIVIER",
+    "id": 263,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 188
+  },
+  {
+    "brand_name": "Ami",
+    "brand_back_name": "AMI",
+    "id": 50,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 189
+  },
+  {
+    "brand_name": "Drew House",
+    "brand_back_name": "DREW HOUSE",
+    "id": 235,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 190
+  },
+  {
+    "brand_name": "Lululemon",
+    "brand_back_name": "LULULEMON",
+    "id": 148,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 191
+  },
+  {
+    "brand_name": "Palace",
+    "brand_back_name": "PALACE",
+    "id": 259,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 192
+  },
+  {
+    "brand_name": "Hublot",
+    "brand_back_name": "HUBLOT",
+    "id": 114,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 193
+  },
+  {
+    "brand_name": "Iro",
+    "brand_back_name": "IRO",
+    "id": 118,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 194
+  },
+  {
+    "brand_name": "Cerruti",
+    "brand_back_name": "CERRUTI",
+    "id": 37,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 195
+  },
+  {
+    "brand_name": "Enfants Riches Deprimes",
+    "brand_back_name": "ENFANTS RICHES DEPRIMES",
+    "id": 287,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 196
+  },
+  {
+    "brand_name": "Patek Philippe",
+    "brand_back_name": "PATEK PHILIPPE",
+    "id": 176,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 197
+  },
+  {
+    "brand_name": "Valextra",
+    "brand_back_name": "VALEXTRA",
+    "id": 225,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 198
+  },
+  {
+    "brand_name": "Tudor",
+    "brand_back_name": "TUDOR",
+    "id": 217,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 200
+  },
+  {
+    "brand_name": "Paco Rabanne",
+    "brand_back_name": "PACO RABANNE",
+    "id": 175,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 201
+  },
+  {
+    "brand_name": "Aquazzura",
+    "brand_back_name": "AQUAZZURA",
+    "id": 10,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 202
+  },
+  {
+    "brand_name": "Ambush",
+    "brand_back_name": "AMBUSH",
+    "id": 8,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 204
+  },
+  {
+    "brand_name": "Longines",
+    "brand_back_name": "LONGINES",
+    "id": 142,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 205
+  },
+  {
+    "brand_name": "Ann Demeulemeester",
+    "brand_back_name": "ANN DEMEULEMEESTER",
+    "id": 52,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 206
+  },
+  {
+    "brand_name": "Dondup",
+    "brand_back_name": "DONDUP",
+    "id": 81,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 207
+  },
+  {
+    "brand_name": "IWC",
+    "brand_back_name": "IWC",
+    "id": 120,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 208
+  },
+  {
+    "brand_name": "Gosha Rubchinskiy",
+    "brand_back_name": "GOSHA RUBCHINSKIY",
+    "id": 103,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 209
+  },
+  {
+    "brand_name": "Joseph",
+    "brand_back_name": "JOSEPH",
+    "id": 129,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 210
+  },
+  {
+    "brand_name": "Sonia Rykiel",
+    "brand_back_name": "SONIA RYKIEL",
+    "id": 202,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 213
+  },
+  {
+    "brand_name": "Aape",
+    "brand_back_name": "AAPE",
+    "id": 44,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 214
+  },
+  {
+    "brand_name": "Kapital",
+    "brand_back_name": "KAPITAL",
+    "id": 131,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 215
+  },
+  {
+    "brand_name": "Under Armour",
+    "brand_back_name": "UNDER ARMOUR",
+    "id": 222,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 216
+  },
+  {
+    "brand_name": "D.exterior",
+    "brand_back_name": "D.EXTERIOR",
+    "id": 76,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 218
+  },
+  {
+    "brand_name": "Neil Barrett",
+    "brand_back_name": "NEIL BARRETT",
+    "id": 165,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 219
+  },
+  {
+    "brand_name": "Guidi",
+    "brand_back_name": "GUIDI",
+    "id": 111,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 220
+  },
+  {
+    "brand_name": "Vacheron Constantin",
+    "brand_back_name": "VACHERON CONSTANTIN",
+    "id": 223,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 221
+  },
+  {
+    "brand_name": "Nina Ricci",
+    "brand_back_name": "NINA RICCI",
+    "id": 168,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 222
+  },
+  {
+    "brand_name": "Marcelo Burlon",
+    "brand_back_name": "MARCELO BURLON",
+    "id": 250,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 223
+  },
+  {
+    "brand_name": "DRKSHDW",
+    "brand_back_name": "DRKSHDW",
+    "id": 84,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 226
+  },
+  {
+    "brand_name": "Needles",
+    "brand_back_name": "NEEDLES",
+    "id": 163,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 229
+  },
+  {
+    "brand_name": "Thrasher",
+    "brand_back_name": "THRASHER",
+    "id": 211,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 230
+  },
+  {
+    "brand_name": "Peuterey",
+    "brand_back_name": "PEUTEREY",
+    "id": 179,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 231
+  },
+  {
+    "brand_name": "Common Projects",
+    "brand_back_name": "COMMON PROJECTS",
+    "id": 69,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 233
+  },
+  {
+    "brand_name": "Cashemere",
+    "brand_back_name": "CASHEMERE",
+    "id": 34,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 234
+  },
+  {
+    "brand_name": "Pollini",
+    "brand_back_name": "POLLINI",
+    "id": 184,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 235
+  },
+  {
+    "brand_name": "Lee",
+    "brand_back_name": "LEE",
+    "id": 138,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 236
+  },
+  {
+    "brand_name": "Coperni",
+    "brand_back_name": "COPERNI",
+    "id": 71,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 237
+  },
+  {
+    "brand_name": "Jaeger Lecoultre",
+    "brand_back_name": "JAEGER LECOULTRE",
+    "id": 124,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 238
+  },
+  {
+    "brand_name": "Mammut",
+    "brand_back_name": "MAMMUT",
+    "id": 150,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 239
+  },
+  {
+    "brand_name": "Gcds",
+    "brand_back_name": "GCDS",
+    "id": 240,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 240
+  },
+  {
+    "brand_name": "Birkenstock",
+    "brand_back_name": "BIRKENSTOCK",
+    "id": 22,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 241
+  },
+  {
+    "brand_name": "Baldessarini",
+    "brand_back_name": "BALDESSARINI",
+    "id": 14,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 242
+  },
+  {
+    "brand_name": "Donna Karan",
+    "brand_back_name": "DONNA KARAN",
+    "id": 82,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 243
+  },
+  {
+    "brand_name": "Mastermind Japan",
+    "brand_back_name": "MASTERMIND JAPAN",
+    "id": 253,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 244
+  },
+  {
+    "brand_name": "Chaumet",
+    "brand_back_name": "CHAUMET",
+    "id": 64,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 245
+  },
+  {
+    "brand_name": "ASSC",
+    "brand_back_name": "ASSC",
+    "id": 55,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 246
+  },
+  {
+    "brand_name": "Schiaparelli",
+    "brand_back_name": "SCHIAPARELLI",
+    "id": 199,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 247
+  },
+  {
+    "brand_name": "Alyx",
+    "brand_back_name": "ALYX",
+    "id": 49,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 248
+  },
+  {
+    "brand_name": "Arcteryx Veilance",
+    "brand_back_name": "ARCTERYX VEILANCE",
+    "id": 53,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 249
+  },
+  {
+    "brand_name": "Neighborhood",
+    "brand_back_name": "NEIGHBORHOOD",
+    "id": 164,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 250
+  },
+  {
+    "brand_name": "Rimowa",
+    "brand_back_name": "RIMOWA",
+    "id": 193,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 252
+  },
+  {
+    "brand_name": "Visvim",
+    "brand_back_name": "VISVIM",
+    "id": 274,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 253
+  },
+  {
+    "brand_name": "Zuhair Murad",
+    "brand_back_name": "ZUHAIR MURAD",
+    "id": 284,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 254
+  },
+  {
+    "brand_name": "Oakley",
+    "brand_back_name": "OAKLEY",
+    "id": 171,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 255
+  },
+  {
+    "brand_name": "Piaget",
+    "brand_back_name": "PIAGET",
+    "id": 181,
+    "min_30": 105,
+    "h_2": 90,
+    "h_12": 75,
+    "h_24": 50,
+    "order": 256
+  },
+  {
+    "brand_name": "Poivre Blanc",
+    "brand_back_name": "POIVRE BLANC",
+    "id": 183,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 258
+  },
+  {
+    "brand_name": "Arcteryx",
+    "brand_back_name": "ARC’TERYX",
+    "id": 310,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 259
+  },
+  {
+    "brand_name": "Faith Connexion",
+    "brand_back_name": "FAITH CONNEXION",
+    "id": 238,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 260
+  },
+  {
+    "brand_name": "Ferragamo",
+    "brand_back_name": "FERRAGAMO",
+    "id": 96,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 261
+  },
+  {
+    "brand_name": "Elie Saab",
+    "brand_back_name": "ELIE SAAB",
+    "id": 87,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 262
+  },
+  {
+    "brand_name": "Telfar",
+    "brand_back_name": "TELFAR",
+    "id": 210,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 264
+  },
+  {
+    "brand_name": "Marine Serre",
+    "brand_back_name": "MARINE SERRE",
+    "id": 153,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 266
+  },
+  {
+    "brand_name": "Pietro Brunelli",
+    "brand_back_name": "PIETRO BRUNELLI",
+    "id": 182,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 267
+  },
+  {
+    "brand_name": "Ih Nom Uh Nit",
+    "brand_back_name": "IH NOM UH NIT",
+    "id": 241,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 269
+  },
+  {
+    "brand_name": "Coccinelle",
+    "brand_back_name": "COCCINELLE",
+    "id": 67,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 271
+  },
+  {
+    "brand_name": "Beams",
+    "brand_back_name": "BEAMS",
+    "id": 19,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 272
+  },
+  {
+    "brand_name": "Breguet",
+    "brand_back_name": "BREGUET",
+    "id": 26,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 275
+  },
+  {
+    "brand_name": "Ulysse Nardin",
+    "brand_back_name": "ULYSSE NARDIN",
+    "id": 219,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 276
+  },
+  {
+    "brand_name": "Descendant",
+    "brand_back_name": "DESCENDANT",
+    "id": 75,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 277
+  },
+  {
+    "brand_name": "We11 Done",
+    "brand_back_name": "WE11 DONE",
+    "id": 278,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 278
+  },
+  {
+    "brand_name": "Guiseppe",
+    "brand_back_name": "GUISEPPE",
+    "id": 288,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 282
+  },
+  {
+    "brand_name": "Fragment",
+    "brand_back_name": "FRAGMENT",
+    "id": 98,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 284
+  },
+  {
+    "brand_name": "Human Made",
+    "brand_back_name": "HUMAN MADE",
+    "id": 117,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 285
+  },
+  {
+    "brand_name": "L'autre Chose",
+    "brand_back_name": "L'AUTRE CHOSE",
+    "id": 137,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 286
+  },
+  {
+    "brand_name": "Undefeated",
+    "brand_back_name": "UNDEFEATED",
+    "id": 221,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 289
+  },
+  {
+    "brand_name": "Boy London",
+    "brand_back_name": "BOY LONDON",
+    "id": 59,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 290
+  },
+  {
+    "brand_name": "Charlie Luciano",
+    "brand_back_name": "CHARLIE LUCIANO",
+    "id": 39,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 292
+  },
+  {
+    "brand_name": "Double Rl",
+    "brand_back_name": "DOUBLE RL",
+    "id": 234,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 293
+  },
+  {
+    "brand_name": "xVessel",
+    "brand_back_name": "XVESSEL",
+    "id": 280,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 294
+  },
+  {
+    "brand_name": "Unravel Project",
+    "brand_back_name": "UNRAVEL PROJECT",
+    "id": 269,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 300
+  },
+  {
+    "brand_name": "Wacko Maria",
+    "brand_back_name": "WACKO MARIA",
+    "id": 277,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 301
+  },
+  {
+    "brand_name": "Wtaps",
+    "brand_back_name": "WTAPS",
+    "id": 279,
+    "min_30": 7,
+    "h_2": 6,
+    "h_12": 5,
+    "h_24": 4,
+    "order": 302
+  },
+  {
+    "brand_name": "Simonetta",
+    "brand_back_name": "SIMONETTA",
+    "id": 201,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 303
+  },
+  {
+    "brand_name": "Namacheko",
+    "brand_back_name": "NAMACHEKO",
+    "id": 162,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 304
+  },
+  {
+    "brand_name": "Madness",
+    "brand_back_name": "MADNESS",
+    "id": 248,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 305
+  },
+  {
+    "brand_name": "Izzue",
+    "brand_back_name": "IZZUE",
+    "id": 121,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 306
+  },
+  {
+    "brand_name": "FR2",
+    "brand_back_name": "FR2",
+    "id": 97,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 307
+  },
+  {
+    "brand_name": "Calvin Klein",
+    "brand_back_name": "CALVIN KLEIN",
+    "id": 63,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 309
+  }
+ ]

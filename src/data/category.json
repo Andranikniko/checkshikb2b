@@ -1,0 +1,43 @@
+[
+  {
+    "id": 2,
+    "category_display_name": "Сумки",
+    "category_back_name": "bag"
+  },
+  {
+    "id": 4,
+    "category_display_name": "Одежда",
+    "category_back_name": "clothing"
+  },
+  {
+    "id": 8,
+    "category_display_name": "Обувь",
+    "category_back_name": "other-shoes-luxury"
+  },
+  {
+    "id": 1,
+    "category_display_name": "Аксессуары",
+    "category_back_name": "accessory"
+  },
+
+  {
+    "id": 5,
+    "category_display_name": "Очки",
+    "category_back_name": "glasses"
+  },
+  {
+    "id": 9,
+    "category_display_name": "Кроссовки",
+    "category_back_name": "sneakers-hype"
+  },
+  {
+    "id": 6,
+    "category_display_name": "Ювелирные украшения",
+    "category_back_name": "jewelry"
+  },
+  {
+    "id": 11,
+    "category_display_name": "Кошельки",
+    "category_back_name": "wallet"
+  }
+]
