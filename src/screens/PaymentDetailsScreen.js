@@ -139,9 +139,13 @@ const PaymentDetailsScreen = ({
       return;
     }
 
+    // Skip payment widget and go directly to success screen
+    // Payment will be handled separately after successful execution of scenario
     const token = await fetchConfirmationToken();
     if (!token) return;
-    setCurrentScreen('paymentWidget');
+    
+    // Redirect directly to success screen instead of payment widget
+    setCurrentScreen('success');
   };
 
   return (

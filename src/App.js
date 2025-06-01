@@ -73,9 +73,10 @@ const App = () => {
       case 'paymentDetails':
         setCurrentScreen('authentication');
         break;
-      case 'paymentWidget':
-        setCurrentScreen('paymentDetails');
-        break;
+      // Hide payment widget navigation since screen is hidden
+      // case 'paymentWidget':
+      //   setCurrentScreen('paymentDetails');
+      //   break;
       default:
         break;
     }
@@ -107,8 +108,9 @@ const App = () => {
         return 'ЗАГРУЗИТЕ ФОТОГРАФИИ';
       case 'paymentDetails':
         return 'ВЫБЕРИТЕ ВРЕМЯ ОТВЕТА';
-      case 'paymentWidget':
-        return 'ОПЛАТА';
+      // Hide payment widget header since screen is hidden
+      // case 'paymentWidget':
+      //   return 'ОПЛАТА';
       case 'reupload':
         return 'ПЕРЕЗАГРУЗИТЕ ФОТОГРАФИИ';
       case 'faq':
@@ -162,12 +164,13 @@ const App = () => {
             setPaymentId={setPaymentId}
           />
         );
-      case 'paymentWidget':
-        return <PaymentWidgetScreen 
-          confirmationToken={confirmationToken}
-          setCurrentScreen={setCurrentScreen}
-          onSuccess={handlePaymentSuccess} 
-        />;
+      // Hide payment widget screen - payment will be handled separately
+      // case 'paymentWidget':
+      //   return <PaymentWidgetScreen 
+      //     confirmationToken={confirmationToken}
+      //     setCurrentScreen={setCurrentScreen}
+      //     onSuccess={handlePaymentSuccess} 
+      //   />;
       case 'success':
         return <SuccessScreen 
           selectedCategory={selectedCategory}
