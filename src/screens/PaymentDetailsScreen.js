@@ -98,9 +98,6 @@ const PaymentDetailsScreen = ({
         </div>
       </div>
 
-      <div className="mb-4 text-xl">
-        <span className="font-bold">Сумма: </span>₽{currentPrice}
-      </div>
 
       <button
         onClick={handleSubmitOrder}
