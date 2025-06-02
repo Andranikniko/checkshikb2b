@@ -1,8 +1,8 @@
 export const API_ENDPOINTS = {
   AUTHORIZE: 'https://9qmmmgbfl0.execute-api.eu-west-2.amazonaws.com/1/authorize',
   UPLOAD_LINK: 'https://9qmmmgbfl0.execute-api.eu-west-2.amazonaws.com/1/upload-link',
-  REUPLOAD: 'https://hook.eu1.make.com/rg9cbpbsem9oo2obts2meiqbavpjrlmj',
-  WEBHOOK_REUPLOAD: 'https://hook.eu1.make.com/ihvy3krjhqrkiyqnqwq6f8rv20ragl3h',
+  REUPLOAD: 'https://hook.eu1.make.com/imcee7xibaq02ey4g48dqtrwb34hkma1',
+  WEBHOOK_REUPLOAD: 'https://hook.eu1.make.com/vqqh9v2igoietowyrrxiowebjtcsg3w4',
   BASE_URL: process.env.REACT_APP_API_URL || 'https://your-api-url.com',
 };
 
@@ -13,11 +13,11 @@ export const API_CREDENTIALS = {
 
 
 export const WEBHOOKS = {
-  WEBHOOK_REUPLOAD: 'https://hook.eu1.make.com/ihvy3krjhqrkiyqnqwq6f8rv20ragl3h',
-  REUPLOAD: 'https://hook.eu1.make.com/rg9cbpbsem9oo2obts2meiqbavpjrlmj',
+  WEBHOOK_REUPLOAD: 'https://hook.eu1.make.com/vqqh9v2igoietowyrrxiowebjtcsg3w4',
+  REUPLOAD: 'https://hook.eu1.make.com/imcee7xibaq02ey4g48dqtrwb34hkma1',
   PAYMENT_DETAILS: 'https://hook.eu1.make.com/gyqc8wfic57qpb63145m3czcfvf76dkt',
   CONFIRMATION_TOKEN: 'https://hook.eu1.make.com/25p2pjjxx50mlrk7r5duhx87tefreb8v',
-  SUCCESS: 'https://hook.eu1.make.com/5hgoejlxxm36hbjwtikzc6qbo4kjeipt',
+  SUCCESS: 'https://hook.eu1.make.com/wokf5aociw1cxdl6e9uspijnbthxgi38',
 };
 
 export const CDN = {
