@@ -158,18 +158,18 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-3 gap-2">
-            {reuploadIndexes.map((photoType, idx) => (
-              <IndexSquare
-                key={idx}
-                photoType={photoType}
-                uploadedPhotos={uploadedPhotos}
-                handleUpload={handleUpload}
-                loadingIndex={loadingIndex}
-                warnedIndexes={warnedIndexes}
-              />
-            ))}
-          </div>
+      <div className="grid grid-cols-3 gap-2">
+  {reuploadIndexes.map((photoType, idx) => (
+    <IndexSquare
+      key={idx}
+      photoType={photoType}
+      uploadedPhotos={uploadedPhotos}
+      handleUpload={handleUpload}
+      loading={loadingIndex === photoType.index_back_name}
+      warnedIndexes={warnedIndexes}
+    />
+  ))}
+</div>
           <br />
           <button
             onClick={handleSubmit}
