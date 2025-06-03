@@ -87,7 +87,7 @@ const SuccessScreen = ({
   };
 
   return (
-    <div className="flex flex-col h-full" style={{ backgroundColor: colors.background }}>
+    <div className="flex flex-col min-h-screen" style={{ backgroundColor: colors.primary }}>
       <Header showLogo />
 
       {/* Cover Image - Hidden for now */}
@@ -101,26 +101,28 @@ const SuccessScreen = ({
       </div>
       */}
 
-      <div className="px-6 py-8 text-center" style={{ backgroundColor: colors.primary }}>
-        <p className="mb-4" style={{ ...typography.body, color: colors.text_on_primary, fontFamily: 'Montserrat', fontWeight: 400 }}>
-          Шик! Ваш запрос на Чек принят успешно!
-        </p>
-        <p className="mb-4" style={{ ...typography.body, color: colors.text_on_primary, fontFamily: 'Montserrat', fontWeight: 400 }}>
-          {isTelegramWebApp() ? (
-            <>Результат проверки будет отправлен вам в телеграм, в выбранное время ответа. Если для аутентификации нам понадобится больше фото, мы отправим запрос в телеграм.</>
-          ) : (
-            <>Результат проверки будет отправлен в телеграм чат, в выбранное время ответа. Если для аутентификации нам понадобится больше фото, мы отправим вам запрос.</>
-          )}
-        </p>
-
-        {webhookStatus === 'error' && (
-          <p className="mb-4 text-sm" style={{ color: colors.error, fontFamily: 'Montserrat', fontWeight: 400 }}>
-            Примечание: Возникла проблема при отправке данных. Ваш заказ всё равно принят в обработку.
+      <div className="flex-1 flex flex-col justify-center px-6 py-8 text-center">
+        <div className="space-y-4">
+          <p className="mb-4" style={{ ...typography.body, color: colors.text_on_primary, fontFamily: 'Montserrat', fontWeight: 400 }}>
+            Шик! Ваш запрос на Чек принят успешно!
           </p>
-        )}
+          <p className="mb-4" style={{ ...typography.body, color: colors.text_on_primary, fontFamily: 'Montserrat', fontWeight: 400 }}>
+            {isTelegramWebApp() ? (
+              <>Результат проверки будет отправлен вам в телеграм, в выбранное время ответа. Если для аутентификации нам понадобится больше фото, мы отправим запрос в телеграм.</>
+            ) : (
+              <>Результат проверки будет отправлен в телеграм чат, в выбранное время ответа. Если для аутентификации нам понадобится больше фото, мы отправим вам запрос.</>
+            )}
+          </p>
+
+          {webhookStatus === 'error' && (
+            <p className="mb-4 text-sm" style={{ color: colors.error, fontFamily: 'Montserrat', fontWeight: 400 }}>
+              Примечание: Возникла проблема при отправке данных. Ваш заказ всё равно принят в обработку.
+            </p>
+          )}
+        </div>
       </div>
 
-      <div className="p-6" style={{ backgroundColor: colors.primary }}>
+      <div className="p-6">
         <button
           onClick={handleClose}
           className="w-full py-4 px-6 rounded-lg font-medium transition-all"
