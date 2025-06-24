@@ -21,15 +21,15 @@ const PaymentDetailsScreen = ({
   const getPrice = (answerTimeKey) => {
     if (!brand) return 0;
     switch (answerTimeKey) {
+      case 'min_30': return brand.min_30;
       case 'h_2': return brand.h_2;
       case 'h_12': return brand.h_12;
       case 'h_24': return brand.h_24;
       default: return 0;
     }
   };
-
-  // Only 2h, 12h, 24h options
   const answerTimeOptions = [
+    { key: 'min_30', label: '30 минут' },
     { key: 'h_2', label: '2 часа' },
     { key: 'h_12', label: '12 часов' },
     { key: 'h_24', label: '24 часа' },
