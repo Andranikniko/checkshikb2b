@@ -115,6 +115,8 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
 
   // Handle submission: send POST request with order id, photos, and webhook_event
   const handleSubmit = async () => {
+    if (uploading) return;
+    setUploading(true);
     if (!allUploaded) {
       // Find missing indexes
       const missingIndexes = reuploadIndexes
@@ -125,11 +127,10 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
         .map(idx => idx.index_back_name);
       setWarnedIndexes(missingIndexes);
       setShowPopup(true);
+      setUploading(false);
       return;
     }
 
-    if (uploading) return;
-    
     try {
       const photos = reuploadIndexes.map(idx => {
         if (unableToProvide[idx.index_back_name]) {
@@ -157,6 +158,7 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
     } catch (error) {
       console.error("Error during submission", error);
       alert("Ошибка при отправке. Попробуйте ещё раз.");
+      setUploading(false);
     }
   };
 
