@@ -12,6 +12,7 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
   const [loadingIndex, setLoadingIndex] = useState(null);
   const [warnedIndexes, setWarnedIndexes] = useState([]);
   const [showPopup, setShowPopup] = useState(false);
+  const [unableToProvide, setUnableToProvide] = useState({});
 
   // Fetch the indexes that need reuploading when the component mounts
   useEffect(() => {
@@ -99,18 +100,23 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
     fileInput.click();
   };
 
-  // Check that every index in the reuploadIndexes has an uploaded photo
+  // Check that every index in the reuploadIndexes has an uploaded photo or is marked as unable to provide
   const allUploaded = reuploadIndexes.length > 0 &&
-    reuploadIndexes.every(idx => uploadedPhotos.some(photo => photo.index === idx.index_back_name));
+    reuploadIndexes.every(idx =>
+      uploadedPhotos.some(photo => photo.index === idx.index_back_name) ||
+      unableToProvide[idx.index_back_name]
+    );
 
   // Handle submission: send POST request with order id, photos, and webhook_event
   const handleSubmit = async () => {
     if (!allUploaded) {
       // Find missing indexes
       const missingIndexes = reuploadIndexes
-        .filter(idx => !uploadedPhotos.some(photo => photo.index === idx.index_back_name))
+        .filter(idx =>
+          !uploadedPhotos.some(photo => photo.index === idx.index_back_name) &&
+          !unableToProvide[idx.index_back_name]
+        )
         .map(idx => idx.index_back_name);
-      
       setWarnedIndexes(missingIndexes);
       setShowPopup(true);
       return;
@@ -119,10 +125,20 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
     if (uploading) return;
     
     try {
+      const photos = reuploadIndexes.map(idx => {
+        if (unableToProvide[idx.index_back_name]) {
+          return { index: idx.index_back_name, is_unable_to_provide: true };
+        }
+        const uploaded = uploadedPhotos.find(photo => photo.index === idx.index_back_name);
+        if (uploaded) {
+          return { index: idx.index_back_name, url: uploaded.url };
+        }
+        return null;
+      }).filter(Boolean);
       const body = {
         id: orderId,
         webhook_event: "photos-reuploaded",
-        photos: uploadedPhotos // array of { index, url }
+        photos
       };
       const res = await fetch(WEBHOOKS.WEBHOOK_REUPLOAD, {
         method: 'POST',
@@ -160,14 +176,27 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
         <>
       <div className="grid grid-cols-3 gap-2">
   {reuploadIndexes.map((photoType, idx) => (
-    <IndexSquare
-      key={idx}
-      photoType={photoType}
-      uploadedPhotos={uploadedPhotos}
-      handleUpload={handleUpload}
-      loading={loadingIndex === photoType.index_back_name}
-      warnedIndexes={warnedIndexes}
-    />
+    <div key={idx} className="flex flex-col items-center">
+      <IndexSquare
+        photoType={photoType}
+        uploadedPhotos={uploadedPhotos}
+        handleUpload={handleUpload}
+        loading={loadingIndex === photoType.index_back_name}
+        warnedIndexes={warnedIndexes}
+      />
+      <label className="mt-2 flex items-center text-xs">
+        <input
+          type="checkbox"
+          checked={!!unableToProvide[photoType.index_back_name]}
+          onChange={e => setUnableToProvide(prev => ({
+            ...prev,
+            [photoType.index_back_name]: e.target.checked
+          }))}
+          className="mr-1"
+        />
+        Не могу предоставить
+      </label>
+    </div>
   ))}
 </div>
           <br />
