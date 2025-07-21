@@ -13,9 +13,11 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
   const [warnedIndexes, setWarnedIndexes] = useState([]);
   const [showPopup, setShowPopup] = useState(false);
   const [unableToProvide, setUnableToProvide] = useState({});
+  const [loadingIndexes, setLoadingIndexes] = useState(true);
 
   // Fetch the indexes that need reuploading when the component mounts
   useEffect(() => {
+    setLoadingIndexes(true);
     fetch(API_ENDPOINTS.REUPLOAD, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -34,8 +36,12 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
           };
         });
         setReuploadIndexes(merged);
+        setLoadingIndexes(false);
       })
-      .catch(err => console.error('Error fetching reupload indexes', err));
+      .catch(err => {
+        console.error('Error fetching reupload indexes', err);
+        setLoadingIndexes(false);
+      });
   }, [orderId]);
 
   // Functions to fetch token and pre-signed URL
@@ -156,6 +162,30 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
 
   return (
     <div className="flex flex-col h-full p-4" style={{ backgroundColor: colors.background }}>
+      {/* Loader overlay for initial fetch */}
+      {loadingIndexes && (
+        <div className="fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center z-50">
+          <div className="flex flex-col items-center">
+            <svg className="animate-spin h-10 w-10 text-primary mb-2" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
+            </svg>
+            <span style={{ color: colors.primary }}>Загрузка...</span>
+          </div>
+        </div>
+      )}
+      {/* Loader overlay */}
+      {uploading && (
+        <div className="fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center z-50">
+          <div className="flex flex-col items-center">
+            <svg className="animate-spin h-10 w-10 text-primary mb-2" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
+            </svg>
+            <span style={{ color: colors.primary }}>Загрузка...</span>
+          </div>
+        </div>
+      )}
       {reuploadIndexes.length === 0 ? (
         <div className="flex flex-col items-center justify-center h-full space-y-6">
           <p className="text-center text-lg">
@@ -202,13 +232,24 @@ const ReuploadScreen = ({ orderId, setCurrentScreen }) => {
           <br />
           <button
             onClick={handleSubmit}
-            className={`mt-auto py-4 rounded-lg text-center bg-orange-500 text-white`}
+            disabled={uploading}
+            className={`mt-auto py-4 rounded-lg text-center bg-orange-500 text-white ${uploading ? 'opacity-60 cursor-not-allowed' : ''}`}
             style={{
               backgroundColor: colors.primary,
               color: colors.text_on_primary
             }}
           >
-            Загрузить и отправить
+            {uploading ? (
+              <span className="flex items-center justify-center">x
+                <svg className="animate-spin h-5 w-5 mr-2" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
+                </svg>
+                Загрузка...
+              </span>
+            ) : (
+              'Загрузить и отправить'
+            )}
           </button>
           <br></br>
 
