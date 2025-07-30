@@ -2638,5 +2638,25 @@
     "h_12": 20,
     "h_24": 15,
     "order": 309
+  },
+   {
+    "brand_name": "The Row",
+    "brand_back_name": "THE ROW",
+    "id": 557,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 310
+  },
+ {
+    "brand_name": "Polene",
+    "brand_back_name": "POLÈNE",
+    "id": 559,
+    "min_30": 35,
+    "h_2": 25,
+    "h_12": 20,
+    "h_24": 15,
+    "order": 311
   }
  ]
